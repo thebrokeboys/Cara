@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A51E234D22CAF35300B10075 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51E234C22CAF35300B10075 /* AppDelegate.swift */; };
+		A51E234F22CAF35300B10075 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51E234E22CAF35300B10075 /* ViewController.swift */; };
+		A51E235222CAF35300B10075 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A51E235022CAF35300B10075 /* Main.storyboard */; };
+		A51E235422CAF35800B10075 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A51E235322CAF35800B10075 /* Assets.xcassets */; };
+		A51E235722CAF35800B10075 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A51E235522CAF35800B10075 /* LaunchScreen.storyboard */; };
+		A51E236222CAF35900B10075 /* CaraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51E236122CAF35900B10075 /* CaraTests.swift */; };
+		A51E236D22CAF35900B10075 /* CaraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51E236C22CAF35900B10075 /* CaraUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A51E235E22CAF35900B10075 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A51E234122CAF35300B10075 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A51E234822CAF35300B10075;
+			remoteInfo = Cara;
+		};
+		A51E236922CAF35900B10075 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A51E234122CAF35300B10075 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A51E234822CAF35300B10075;
+			remoteInfo = Cara;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A51E234922CAF35300B10075 /* Cara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cara.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A51E234C22CAF35300B10075 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A51E234E22CAF35300B10075 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A51E235122CAF35300B10075 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A51E235322CAF35800B10075 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A51E235622CAF35800B10075 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A51E235822CAF35800B10075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A51E235D22CAF35900B10075 /* CaraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A51E236122CAF35900B10075 /* CaraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaraTests.swift; sourceTree = "<group>"; };
+		A51E236322CAF35900B10075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A51E236822CAF35900B10075 /* CaraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A51E236C22CAF35900B10075 /* CaraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaraUITests.swift; sourceTree = "<group>"; };
+		A51E236E22CAF35900B10075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A51E234622CAF35300B10075 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A51E235A22CAF35900B10075 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A51E236522CAF35900B10075 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A51E234022CAF35300B10075 = {
+			isa = PBXGroup;
+			children = (
+				A51E234B22CAF35300B10075 /* Cara */,
+				A51E236022CAF35900B10075 /* CaraTests */,
+				A51E236B22CAF35900B10075 /* CaraUITests */,
+				A51E234A22CAF35300B10075 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A51E234A22CAF35300B10075 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A51E234922CAF35300B10075 /* Cara.app */,
+				A51E235D22CAF35900B10075 /* CaraTests.xctest */,
+				A51E236822CAF35900B10075 /* CaraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A51E234B22CAF35300B10075 /* Cara */ = {
+			isa = PBXGroup;
+			children = (
+				A51E234C22CAF35300B10075 /* AppDelegate.swift */,
+				A51E234E22CAF35300B10075 /* ViewController.swift */,
+				A51E235022CAF35300B10075 /* Main.storyboard */,
+				A51E235322CAF35800B10075 /* Assets.xcassets */,
+				A51E235522CAF35800B10075 /* LaunchScreen.storyboard */,
+				A51E235822CAF35800B10075 /* Info.plist */,
+			);
+			path = Cara;
+			sourceTree = "<group>";
+		};
+		A51E236022CAF35900B10075 /* CaraTests */ = {
+			isa = PBXGroup;
+			children = (
+				A51E236122CAF35900B10075 /* CaraTests.swift */,
+				A51E236322CAF35900B10075 /* Info.plist */,
+			);
+			path = CaraTests;
+			sourceTree = "<group>";
+		};
+		A51E236B22CAF35900B10075 /* CaraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A51E236C22CAF35900B10075 /* CaraUITests.swift */,
+				A51E236E22CAF35900B10075 /* Info.plist */,
+			);
+			path = CaraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A51E234822CAF35300B10075 /* Cara */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A51E237122CAF35900B10075 /* Build configuration list for PBXNativeTarget "Cara" */;
+			buildPhases = (
+				A51E234522CAF35300B10075 /* Sources */,
+				A51E234622CAF35300B10075 /* Frameworks */,
+				A51E234722CAF35300B10075 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cara;
+			productName = Cara;
+			productReference = A51E234922CAF35300B10075 /* Cara.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A51E235C22CAF35900B10075 /* CaraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A51E237422CAF35900B10075 /* Build configuration list for PBXNativeTarget "CaraTests" */;
+			buildPhases = (
+				A51E235922CAF35900B10075 /* Sources */,
+				A51E235A22CAF35900B10075 /* Frameworks */,
+				A51E235B22CAF35900B10075 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A51E235F22CAF35900B10075 /* PBXTargetDependency */,
+			);
+			name = CaraTests;
+			productName = CaraTests;
+			productReference = A51E235D22CAF35900B10075 /* CaraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A51E236722CAF35900B10075 /* CaraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A51E237722CAF35900B10075 /* Build configuration list for PBXNativeTarget "CaraUITests" */;
+			buildPhases = (
+				A51E236422CAF35900B10075 /* Sources */,
+				A51E236522CAF35900B10075 /* Frameworks */,
+				A51E236622CAF35900B10075 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A51E236A22CAF35900B10075 /* PBXTargetDependency */,
+			);
+			name = CaraUITests;
+			productName = CaraUITests;
+			productReference = A51E236822CAF35900B10075 /* CaraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A51E234122CAF35300B10075 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "The Broke Boys";
+				TargetAttributes = {
+					A51E234822CAF35300B10075 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					A51E235C22CAF35900B10075 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A51E234822CAF35300B10075;
+					};
+					A51E236722CAF35900B10075 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A51E234822CAF35300B10075;
+					};
+				};
+			};
+			buildConfigurationList = A51E234422CAF35300B10075 /* Build configuration list for PBXProject "Cara" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A51E234022CAF35300B10075;
+			productRefGroup = A51E234A22CAF35300B10075 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A51E234822CAF35300B10075 /* Cara */,
+				A51E235C22CAF35900B10075 /* CaraTests */,
+				A51E236722CAF35900B10075 /* CaraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A51E234722CAF35300B10075 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A51E235722CAF35800B10075 /* LaunchScreen.storyboard in Resources */,
+				A51E235422CAF35800B10075 /* Assets.xcassets in Resources */,
+				A51E235222CAF35300B10075 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A51E235B22CAF35900B10075 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A51E236622CAF35900B10075 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A51E234522CAF35300B10075 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A51E234F22CAF35300B10075 /* ViewController.swift in Sources */,
+				A51E234D22CAF35300B10075 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A51E235922CAF35900B10075 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A51E236222CAF35900B10075 /* CaraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A51E236422CAF35900B10075 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A51E236D22CAF35900B10075 /* CaraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A51E235F22CAF35900B10075 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A51E234822CAF35300B10075 /* Cara */;
+			targetProxy = A51E235E22CAF35900B10075 /* PBXContainerItemProxy */;
+		};
+		A51E236A22CAF35900B10075 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A51E234822CAF35300B10075 /* Cara */;
+			targetProxy = A51E236922CAF35900B10075 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A51E235022CAF35300B10075 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A51E235122CAF35300B10075 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A51E235522CAF35800B10075 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A51E235622CAF35800B10075 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A51E236F22CAF35900B10075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A51E237022CAF35900B10075 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A51E237222CAF35900B10075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AG52VEHRL5;
+				INFOPLIST_FILE = Cara/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brokeboys.Cara;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A51E237322CAF35900B10075 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AG52VEHRL5;
+				INFOPLIST_FILE = Cara/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brokeboys.Cara;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A51E237522CAF35900B10075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AG52VEHRL5;
+				INFOPLIST_FILE = CaraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brokeboys.CaraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cara.app/Cara";
+			};
+			name = Debug;
+		};
+		A51E237622CAF35900B10075 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AG52VEHRL5;
+				INFOPLIST_FILE = CaraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brokeboys.CaraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cara.app/Cara";
+			};
+			name = Release;
+		};
+		A51E237822CAF35900B10075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AG52VEHRL5;
+				INFOPLIST_FILE = CaraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brokeboys.CaraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cara;
+			};
+			name = Debug;
+		};
+		A51E237922CAF35900B10075 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AG52VEHRL5;
+				INFOPLIST_FILE = CaraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brokeboys.CaraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cara;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A51E234422CAF35300B10075 /* Build configuration list for PBXProject "Cara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A51E236F22CAF35900B10075 /* Debug */,
+				A51E237022CAF35900B10075 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A51E237122CAF35900B10075 /* Build configuration list for PBXNativeTarget "Cara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A51E237222CAF35900B10075 /* Debug */,
+				A51E237322CAF35900B10075 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A51E237422CAF35900B10075 /* Build configuration list for PBXNativeTarget "CaraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A51E237522CAF35900B10075 /* Debug */,
+				A51E237622CAF35900B10075 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A51E237722CAF35900B10075 /* Build configuration list for PBXNativeTarget "CaraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A51E237822CAF35900B10075 /* Debug */,
+				A51E237922CAF35900B10075 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A51E234122CAF35300B10075 /* Project object */;
+}
